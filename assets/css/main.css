@@ -2480,7 +2480,7 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								fixed;
+		background-attachment:fixed, fixed;
 		background-image: url("images/overlay.png"), url("../../images/bg1.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
@@ -2492,7 +2492,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 32%;
 	}
 
 		#header > * {
@@ -2584,7 +2584,7 @@
 
 			#main > section:first-child {
 				border-top: 0;
-				margin-top: 0;
+				margin-top: -90px;    /*  alter label */
 				padding-top: 0;
 			}
 
@@ -2844,7 +2844,7 @@
 	}
 
 	body.is-touch #header {
-		background-attachment: scroll;
+		background-attachment: fixed;
 		background-size: auto, cover;
 	}
 
@@ -2925,7 +2925,7 @@
 		/* Header */
 
 			#header {
-				background-attachment: scroll;
+				background-attachment: fixed;
 				background-position: top left, center center;
 				background-size: auto,		cover;
 				left: auto;
